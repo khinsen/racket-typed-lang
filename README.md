@@ -5,8 +5,8 @@ A bare-bones typed language implementation for Racket
 
 This repository contains an example for a typed language implemented
 in Racket, consisting of Typed Racket with extensions. This is
-not trivial to do and in fact the current version of this code
-**does note work**.
+not trivial to do. The current version works thanks to a suggestion
+by Evan Moran on the Racket user mailing list.
 
 Usage
 -----
@@ -26,5 +26,3 @@ Usage
 4. Run the example:
 
   `racket example.rkt`
-
-5. Fix the bug(s) and submit a pull request ;-)
