@@ -3,10 +3,10 @@
 (: x Integer)
 (define x 42)
 
-(print x)
+(displayln x)
 
-(print (foo x))
+(displayln (foo x))
 
 ; Verify that we are really using the original function foo,
 ; rather than a version wrapped with a runtime contract check.
-(print (impersonator? foo))
+(displayln (impersonator? foo))
