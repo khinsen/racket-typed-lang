@@ -10,3 +10,7 @@
 ; Verify that we are really using the original function foo,
 ; rather than a version wrapped with a runtime contract check.
 (displayln (impersonator? foo))
+
+; Use a macro
+(fooify x)
+(displayln x)
