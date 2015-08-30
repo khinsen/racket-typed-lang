@@ -25,4 +25,4 @@ Usage
 
 4. Run the example:
 
-  `racket example.rkt`
+  `racket a-typed-lang/example.rkt`
